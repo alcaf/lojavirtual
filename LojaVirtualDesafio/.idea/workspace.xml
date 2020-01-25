@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c71f55ad-f697-4f11-8e9d-49976595ed38" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Wra7janndWk4tF8s1CJn7IGkc0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="C:/Workspaces GIT/api-esteira-financiamento/pom.xml" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.avancard.java.sgc.controller" />
+      <recent name="br.com.avancard.java.sgc.model.entity" />
+      <recent name="br.com.avancard.java.sgc.model.dao" />
+      <recent name="br.com.avancard.java.sgc.model.service" />
+      <recent name="br.com.loja.java.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Temp\Alan\Private\Workspace\LojaVirtualDesafio\src\main\webapp\pages\cadastros" />
+      <recent name="C:\Temp\Alan\Private\Workspace\LojaVirtualDesafio\src\main\webapp" />
+      <recent name="C:\Temp\Alan\Private\Workspace\LojaVirtualDesafio\src\main\resources" />
+      <recent name="C:\Temp\Alan\Private\Workspace\LojaVirtualDesafio\src\main\java\org\primefaces\ultima\component\menu" />
+      <recent name="C:\Temp\Alan\Private\Workspace\LojaVirtualDesafio\src\main\java\org\primefaces\ultima" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="LojaVirtualDesafio [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c71f55ad-f697-4f11-8e9d-49976595ed38" name="Default Changelist" comment="" />
+      <created>1579910001557</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579910001557</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579910672367">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579910672367" />
+    <state x="765" y="202" key="#com.intellij.ide.util.MemberChooser" timestamp="1579917012325">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="202" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579917012325" />
+    <state x="738" y="403" width="445" height="242" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1579914522455">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="738" y="403" width="445" height="242" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1579914522455" />
+    <state x="305" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579913734391">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="305" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579913734391" />
+    <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579919633281">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579919633281" />
+    <state width="416" height="466" key="DebuggerActiveHint" timestamp="1579924564531">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="416" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1579924564531" />
+    <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1579922272207">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579922272207" />
+    <state x="782" y="434" key="Github.CreateGistDialog" timestamp="1579924854525">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="782" y="434" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579924854525" />
+    <state width="1876" height="330" key="GridCell.Tab.0.bottom" timestamp="1579924778590">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="330" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579924778590" />
+    <state width="1876" height="330" key="GridCell.Tab.0.center" timestamp="1579924778590">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="330" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579924778590" />
+    <state width="1876" height="330" key="GridCell.Tab.0.left" timestamp="1579924778590">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="330" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579924778590" />
+    <state width="1876" height="330" key="GridCell.Tab.0.right" timestamp="1579924778590">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="330" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579924778590" />
+    <state width="1876" height="437" key="GridCell.Tab.1.bottom" timestamp="1579924778575">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="437" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579924778575" />
+    <state width="1876" height="437" key="GridCell.Tab.1.center" timestamp="1579924778575">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="437" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579924778575" />
+    <state width="1876" height="437" key="GridCell.Tab.1.left" timestamp="1579924778575">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="437" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579924778575" />
+    <state width="1876" height="437" key="GridCell.Tab.1.right" timestamp="1579924778575">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="437" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579924778575" />
+    <state x="461" y="150" key="SettingsEditor" timestamp="1579924777168">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="150" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579924777168" />
+    <state x="521" y="254" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1579923176227">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="521" y="254" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1579923176227" />
+    <state x="657" y="257" width="606" height="526" key="find.popup" timestamp="1579924647325">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="657" y="257" width="606" height="526" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579924647325" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579923387770">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579923387770" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/loja/java/icts/model/service/ProdutoService.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/loja/java/icts/model/dao/ProdutoDao.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/loja/java/icts/controller/BeanProdutoList.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

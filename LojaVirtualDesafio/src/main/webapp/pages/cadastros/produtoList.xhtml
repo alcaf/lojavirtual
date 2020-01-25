@@ -1,0 +1,60 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:p="http://primefaces.org/ui"
+                template="/WEB-INF/template.xhtml">
+
+    <ui:define name="content">
+        <div class="ui-fluid">
+            <div class="ui-g">
+                <div class="ui-g-12">
+                    <div class="card card-w-title">
+
+                        <h1>Pesquisa de Produtos</h1>
+
+                        <p:growl id="messages" showDetail="true" />
+                        <p:fieldset id="bandaFiltro" legend="Filtro" toggleable="true" toggleSpeed="500">
+                            <p:panelGrid columns="3" columnClasses="ui-grid-col-3,ui-grid-col-3" layout="grid"
+                                         styleClass="ui-panelgrid-blank form-group" style="border:0px none; background-color:transparent;">
+                                <p:outputLabel for="filtro" value="Código ou Descrição: ">
+                                    <h:panelGroup styleClass="md-inputfield">
+                                        <p:inputText id="filtro" value="#{beanProdutoList.pesquisa}"/>
+                                    </h:panelGroup>
+                                </p:outputLabel>
+                            </p:panelGrid>
+
+                            <p:panelGrid columns="2" columnClasses="ui-grid-col-2,ui-grid-col-2" layout="grid"
+                                         styleClass="ui-panelgrid-blank form-group" style="border:0px none; background-color:transparent;">
+                                <p:commandButton value="Buscar" id="buscar" action="#{beanProdutoList.busca}" style="margin-right:20px;" styleClass="ui-priority-primary" ajax="false" />
+                                <p:commandButton value="Novo" id="novo" action="#{beanProdutoList.novo}" style="margin-right:20px;" styleClass="ui-priority-primary" ajax="false"/>
+                            </p:panelGrid>
+                        </p:fieldset>
+                        <p/>
+                        <p:fieldset id="bandaDados" legend="Produtos" toggleable="true" toggleSpeed="500">
+                            <p:dataTable var="produto" value="#{beanProdutoList.produtos}" reflow="true" rowKey="#{produto.cdProduto}" rows="10" paginator="true" editable="true">
+                                <f:facet name="header">
+                                    Produtos localizados
+                                </f:facet>
+                                <p:column headerText="Código">
+                                    <h:outputText value="#{produto.cdProduto}" />
+                                </p:column>
+                                <p:column headerText="Descrição">
+                                    <h:outputText value="#{produto.dsProduto}" />
+                                </p:column>
+                                <p:column headerText="Preço">
+                                    <h:outputText value="#{produto.vlProduto}" />
+                                </p:column>
+                                <p:column headerText="Ação">
+                                    <p:commandButton icon="ui-icon-edit" action="#{beanProdutoList.edit(produto)}" ajax="false" title="Editar Produto"/>
+                                    <p:commandButton icon="ui-icon-check" action="#{beanProdutoList.delete(produto)}" ajax="false" title="Deletar Produto"/>
+                                </p:column>
+                            </p:dataTable>
+                        </p:fieldset>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ui:define>
+
+</ui:composition>

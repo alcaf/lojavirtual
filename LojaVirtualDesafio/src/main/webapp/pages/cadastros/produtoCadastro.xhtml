@@ -1,0 +1,60 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:p="http://primefaces.org/ui"
+                template="/WEB-INF/template.xhtml">
+
+    <ui:define name="content">
+        <div class="ui-fluid">
+            <div class="ui-g">
+                <div class="ui-g-12">
+                    <div class="card card-w-title">
+
+                        <h1>Dados do Produto</h1>
+
+                        <p:panelGrid columns="2" columnClasses="ui-grid-col-2,ui-grid-col-2" layout="grid"
+                                     styleClass="ui-panelgrid-blank form-group" style="border:0px none; background-color:transparent;">
+                            <p:commandButton value="Voltar" id="voltar" action="#{beanProdutoCadastro.volta}" style="margin-right:20px;" styleClass="ui-priority-primary" ajax="false" />
+                            <p:commandButton value="Salvar" id="salvar" action="#{beanProdutoCadastro.save}" style="margin-right:20px;" styleClass="secondary" ajax="false"/>
+                        </p:panelGrid>
+
+                        <p:growl id="messages" showDetail="true" />
+                        <p:fieldset id="bandaDados" legend="Dados" toggleable="true" toggleSpeed="500">
+
+                            <h:panelGroup  id="identificacaoEdicao" rendered="#{beanProdutoCadastro.modoEdicao}">
+                                <div class="ui-message-warn">
+                                    <p/>
+                                    <span class="ui-message-warn-icon"/>
+                                    <span class="ui-message-warn-detail">#{beanProdutoCadastro.identificacaoEdicao}</span>
+                                    <p/>
+                                </div>
+                            </h:panelGroup>
+                            <p/>
+                            <p:panelGrid columns="3" layout="grid" styleClass="ui-panelgrid-blank form-group" style="border:0px none; background-color:transparent;">
+                                <p:outputLabel for="codigo" value="Código: ">
+                                    <h:panelGroup styleClass="md-inputfield">
+                                        <p:inputMask id="codigo" value="#{beanProdutoCadastro.produtoCadastro.cdProduto}" mask="?99999999" placeHolder="" converter="zerosEsquerdaConverter">
+                                            <p:ajax update="@this" converter="zerosEsquerdaConverter"/>
+                                        </p:inputMask>
+                                    </h:panelGroup>
+                                </p:outputLabel>
+                                <p:outputLabel for="descricao" value="Descricao: ">
+                                    <h:panelGroup styleClass="md-inputfield">
+                                        <p:inputText style="text-transform:uppercase" maxlength="150" id="descricao" value="#{beanProdutoCadastro.produtoCadastro.dsProduto}" />
+                                    </h:panelGroup>
+                                </p:outputLabel>
+                                <p:outputLabel for="preco" value="Preço: ">
+                                    <h:panelGroup styleClass="md-inputfield">
+                                        <p:inputNumber id="preco" value="#{beanProdutoCadastro.produtoCadastro.vlProduto}" symbol="R$ " symbolPosition="p" decimalSeparator="," thousandSeparator="."/>
+                                    </h:panelGroup>
+                                </p:outputLabel>
+                            </p:panelGrid>
+                        </p:fieldset>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ui:define>
+
+</ui:composition>
