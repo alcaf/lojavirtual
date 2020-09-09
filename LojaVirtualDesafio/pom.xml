@@ -22,7 +22,7 @@
     <itext.version>2.1.7</itext.version>
     <jasperreports.version>6.7.0</jasperreports.version>
     <hibernate.version>5.2.7.Final</hibernate.version>
-    <hibernate.validator.version>5.4.1.Final</hibernate.validator.version>
+    <hibernate.validator.version>5.4.2.Final</hibernate.validator.version>
     <hibernate.envers.version>5.2.6.Final</hibernate.envers.version>
     <mssql.connector.version>7.0.0.jre8</mssql.connector.version>
     <mysql.connector.java.version>5.1.47</mysql.connector.java.version>
