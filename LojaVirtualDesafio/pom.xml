@@ -21,7 +21,7 @@
     <apache.poi.version>4.0.1</apache.poi.version>
     <itext.version>2.1.7</itext.version>
     <jasperreports.version>6.7.0</jasperreports.version>
-    <hibernate.version>5.2.7.Final</hibernate.version>
+    <hibernate.version>5.4.24.Final</hibernate.version>
     <hibernate.validator.version>5.4.1.Final</hibernate.validator.version>
     <hibernate.envers.version>5.2.6.Final</hibernate.envers.version>
     <mssql.connector.version>7.0.0.jre8</mssql.connector.version>
