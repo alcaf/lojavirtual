@@ -16,7 +16,7 @@
     <bean.validation.version>1.1.0.Final</bean.validation.version>
     <servlet.version>2.5</servlet.version>
     <jsp.version>2.1</jsp.version>
-    <org.springframework.version>4.3.17.RELEASE</org.springframework.version>
+    <org.springframework.version>5.3.19</org.springframework.version>
     <primefaces.version>6.2</primefaces.version>
     <apache.poi.version>4.0.1</apache.poi.version>
     <itext.version>2.1.7</itext.version>
